@@ -1,0 +1,73 @@
+{
+    "evaluator": "context-project",
+    "config": {
+        "project-field-templates": {
+            "templates": [{
+                "key": "string/text",
+                "title": "Text",
+                "description": "Simple text field. e.g. title, name, header",
+                "icon": "fa fa-align-left"
+            }, {
+                "key": "number/number",
+                "title": "Number",
+                "description": "Numeric value. e.g. score, rating, age, price",
+                "icon": "fa fa-hashtag"
+            }, {
+                "key": "boolean/checkbox",
+                "title": "Checkbox",
+                "description": "Checkbox check. e.g. \"Check to accept our terms...\"",
+                "icon": "fa fa-check-square"
+            }, {
+                "key": "string/radio",
+                "title": "Radio",
+                "description": "Radio select. e.g. gender, race",
+                "icon": "fa fa-check-circle-o"
+            }, {
+                "key": "string/email",
+                "title": "Email",
+                "description": "Auto validates an email address. e.g. my@example.com",
+                "icon": "fa fa-envelope"
+            }, {
+                "key": "string/ckeditor",
+                "title": "Content",
+                "description": "Fully functional text editor. e.g. article, body",
+                "icon": "fa fa-pencil-square-o"
+            }, {
+                "key": "string/select",
+                "title": "Dropdown",
+                "description": "Select from a dropdown list. e.g. genre, suffix",
+                "icon": "fa fa-caret-square-o-down"
+            }, {
+                "key": "object/object",
+                "title": "Object",
+                "description": "An Object has multiple fields. e.g. employee, player",
+                "icon": "fa fa-cube"
+            }, {
+                "key": "object/node-picker",
+                "title": "Related Node",
+                "description": "Pick an object from existing nodes.",
+                "icon": "fa fa-cubes"
+            }, {
+                "key": "object/file-picker",
+                "title": "Related File",
+                "description": "Pick an object from files.",
+                "icon": "fa fa-files-o"
+            }, {
+                "key": "object/hours",
+                "title": "Hours",
+                "description": "Set the open hours for your office.",
+                "icon": "fa fa-clock-o"
+            }, {
+                "key": "array/hours-irregular",
+                "title": "Irregular Hours",
+                "description": "Set irregular hours for your office.",
+                "icon": "fa fa-clock-o"
+            }, {
+                "key": "object/recurrence",
+                "title": "Recurrence",
+                "description": "Set recurring events.",
+                "icon": "fa fa-calendar"
+            }]
+        }
+    }
+}

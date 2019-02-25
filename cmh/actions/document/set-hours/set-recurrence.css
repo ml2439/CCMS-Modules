@@ -1,0 +1,80 @@
+.recurrence input[type="text"] {
+  width: 40px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.recurrence input[type="date"] {
+  width: 180px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.recurrence select {
+  margin: 5px;
+  width: 100px;
+  padding: 5px 30px 5px 5px;
+  border: 1px solid #ccc;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* The cbox */
+.recurrence .cbox {
+  display: inline-block;
+  position: relative;
+  padding-left: 10px;
+  margin: 15px;
+  cursor: pointer;
+}
+
+/* Hide the browser's default checkbox */
+.recurrence .cbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.recurrence .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 30px;
+  width: 30px;
+  background-color: #eee;
+  color: #333;
+  font-size: 14px;
+  font-family: Arial;
+  text-align: center;
+}
+
+/* On mouse-over, add a grey background color */
+.recurrence .cbox:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, change color of background and text*/
+.recurrence .cbox input:checked ~ .checkmark {
+  background-color: #2196F3;
+  color: white;
+}
+
+
+.recurrence .daypicker {
+  margin: 0 0 40px 0;
+}
+
+.recurrence .never, .on, .after {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  height: 35px;
+  margin: 5px;
+}
+.recurrence .choice {
+  width: 100px;
+}

@@ -1,0 +1,71 @@
+<form class="col-md-12 recurrence">
+	<div class="repeat">
+		Repeat every
+		<input type="text" name="every">
+		<select name="timespan">
+			<option value="day">day</option>
+			<option value="week">week</option>
+			<option value="month">month</option>
+			<option value="year">year</option>
+		</select>
+	</div>
+	<div class="pickdays">
+		Repeat on
+		<div class="daypicker">
+			<label class="cbox">
+				<input type="checkbox" name="sunday">
+				<span class="checkmark">Sun</span>
+			</label>
+			<label class="cbox">
+				<input type="checkbox" name="monday">
+				<span class="checkmark">Mon</span>
+			</label>
+			<label class="cbox">
+				<input type="checkbox" name="tuesday">
+				<span class="checkmark">Tue</span>
+			</label>
+			<label class="cbox">
+				<input type="checkbox" name="wednesday">
+				<span class="checkmark">Wed</span>
+			</label>
+			<label class="cbox">
+				<input type="checkbox" name="thursday">
+				<span class="checkmark">Thu</span>
+			</label>
+			<label class="cbox">
+				<input type="checkbox" name="friday">
+				<span class="checkmark">Fri</span>
+			</label>
+			<label class="cbox">
+				<input type="checkbox" name="saturday">
+				<span class="checkmark">Sat</span>
+			</label>
+		</div>
+	</div>
+	<div class="end">
+		<div class="head">
+			Ends
+		</div>
+		<div class="never">
+			<div class="choice">
+				<input type="radio" name="ends" value="never"> Never
+			</div>
+		</div>
+		<div class="on">
+			<div class="choice">
+				<input type="radio" name="ends" value="on"> On
+			</div>
+			<div class="">
+				<input type="date" name="enddate">
+			</div>
+		</div>
+		<div class="after">
+			<div class="choice">
+				<input type="radio" name="ends" value="after"> After
+			</div>
+			<div class="">
+				<input type="text" name="occurences"> occurences
+			</div>
+		</div>
+	</div>
+</form>
