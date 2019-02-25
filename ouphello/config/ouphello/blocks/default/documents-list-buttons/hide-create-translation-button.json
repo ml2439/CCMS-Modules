@@ -1,0 +1,11 @@
+{
+    "evaluator": "document-has-type",
+    "condition": "c:t1",
+    "config": {
+      "document-translations-buttons": [
+        {
+          "key": "add-translation",
+          "remove": true
+        }]
+    }
+  }

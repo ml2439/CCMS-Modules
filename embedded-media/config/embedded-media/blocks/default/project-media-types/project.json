@@ -1,0 +1,14 @@
+{
+    "evaluator": "context-project",
+    "config": {
+        "project-media-types": {
+            "mediatypes": [{
+                "key": "youtube",
+                "label": "YouTubeAHa!"
+            }, {
+                "key": "instagram",
+                "label": "InstagramTest"
+            }]
+        }
+    }
+}

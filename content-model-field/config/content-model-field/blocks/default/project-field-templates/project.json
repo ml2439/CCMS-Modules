@@ -1,0 +1,13 @@
+{
+    "evaluator": "context-project",
+    "config": {
+        "project-field-templates": {
+            "templates": [{
+                "key": "string/summernote",
+                "title": "Content",
+                "description": "Fully functional text editor. e.g. article, body",
+                "icon": "fa fa-pencil-square-o"
+            }]
+        }
+    }
+}
