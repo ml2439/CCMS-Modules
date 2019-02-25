@@ -1,0 +1,14 @@
+{
+  "evaluator": "document-has-type",
+  "condition": "my:alljournals",
+  "config": {
+    "documents-list-buttons": [
+      {
+        "key": "sort-direction-selector",
+        "remove": true
+      }, {
+        "key": "sort-selector",
+        "remove": true
+      }]
+  }
+}

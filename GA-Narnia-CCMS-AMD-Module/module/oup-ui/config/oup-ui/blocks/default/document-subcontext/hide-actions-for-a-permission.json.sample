@@ -1,0 +1,15 @@
+{
+    "evaluator": "current-user-has-permission",
+    "condition": "example1",
+    "config": {
+        "document-subcontext": {
+            "items": [{
+                "key": "document",
+                "items": [{
+                    "key": "document/actions",
+                    "remove": true
+                }]
+            }]
+        }
+    }
+}

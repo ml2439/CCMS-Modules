@@ -1,0 +1,10 @@
+{
+    "config": {
+        "document-actions": [{
+            "key": "open-oup",
+            "title": "Open OUP Home Page",
+            "iconClass": "fa fa-book",
+            "action": "open-oup"
+        }]
+    }
+}

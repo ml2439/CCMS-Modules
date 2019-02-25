@@ -1,0 +1,9 @@
+{
+    "evaluator": "document-has-type",
+    "condition": "my:something",
+    "config": {
+        "documents-list-selected-actions": [{
+            "action": "add-to-favorites"
+        }]
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "evaluator": "context-selected-view",
+    "config": {
+        "project-context": {
+            "items": [
+                {
+                    "key": "project/content/heading",
+                    "title": "YE NEW CONTENT HEADING"
+                }
+            ]
+        }
+    }
+}

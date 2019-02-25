@@ -1,0 +1,10 @@
+{
+  "evaluator": "current-user-has-team",
+  "condition": "project-managers-team",
+  "config": {
+    "document-actions": [{
+      "key": "change-qname",
+      "remove": true
+    }]
+  }
+}

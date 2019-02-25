@@ -1,0 +1,9 @@
+{
+    "config": {
+        "content-instances-list-item-actions": [{
+            "key": "edit-image",
+            "link": "/#/projects/{{project._doc}}/documents/{{document._doc}}/editor",
+            "iconClass": "fa fa-image-o"
+        }]
+    }
+}

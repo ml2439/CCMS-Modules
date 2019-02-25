@@ -1,0 +1,32 @@
+{
+  "evaluator": "document-has-type",
+  "condition": "my:secondarypages",
+  "config": {
+    "documents-list":{
+      "checkbox": false
+    },
+    "documents-list-buttons": [
+      {
+        "key": "new",
+        "remove": true
+      },
+      {
+        "key": "create-journal",
+        "title": "Create Content",
+        "iconClass": "fa fa-plus",
+        "align": "left",
+        "action": "create-journal",
+        "allowPermission": [
+          "create_subobjects"
+        ]
+      },
+      {
+      "key": "view_rules",
+      "remove": true
+    },
+      {
+        "key": "view_details",
+        "remove": true
+      }]
+  }
+}
