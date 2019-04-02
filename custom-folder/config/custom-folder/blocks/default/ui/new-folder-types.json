@@ -1,0 +1,19 @@
+{
+    "evaluator":"and",
+    "condition":[
+       {
+          "evaluator":"current-user-has-team",
+          "condition":"myeditors"
+       },
+       {
+          "evaluator":"context-document-has-type",
+          "condition":"custom:book"
+       }
+    ],
+    "config": {
+        "new-folder-types": [{
+            "qname": "custom:fiction",
+            "title": "Fiction"
+        }]
+    }
+}
